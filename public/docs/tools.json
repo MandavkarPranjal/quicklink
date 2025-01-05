@@ -1,0 +1,200 @@
+{
+    "categories": [
+        {
+            "name": "Databases",
+            "icon": "🗃️",
+            "tools": [
+                {
+                    "name": "Database.Build",
+                    "description": "Build your database with AI & deploy on Supabase",
+                    "url": "https://database.build/"
+                },
+                {
+                    "name": "Supabase",
+                    "description": "The Open Source Firebase Alternative.",
+                    "url": "https://supabase.com/"
+                },
+                {
+                    "name": "Turso",
+                    "description": "SQLite for Production. Powered by libSQL.",
+                    "url": "https://turso.tech/"
+                },
+                {
+                    "name": "Neon",
+                    "description": "Serverless Postgres built for the cloud",
+                    "url": "https://neon.tech/"
+                },
+                {
+                    "name": "Prisma Postgres",
+                    "description": "Instant Postgres for Global Applications",
+                    "url": "https://www.prisma.io/postgres"
+                },
+                {
+                    "name": "MongoDB",
+                    "description": "The most popular database for modern apps.",
+                    "url": "https://www.mongodb.com/"
+                }
+            ]
+        },
+        {
+            "name": "Hosting",
+            "icon": "📡",
+            "tools": [
+                {
+                    "name": "Vercel",
+                    "description": "Develop. Preview. Ship.",
+                    "url": "https://vercel.com/"
+                },
+                {
+                    "name": "Netlify",
+                    "description": "Build, deploy, and scale web apps",
+                    "url": "https://www.netlify.com/"
+                },
+                {
+                    "name": "Render",
+                    "description": "The Easiest Cloud For All Your Apps",
+                    "url": "https://render.com/"
+                },
+                {
+                    "name": "Sevalla",
+                    "description": "The fastest way to deploy your static sites",
+                    "url": "https://sevalla.com/"
+                },
+                {
+                    "name": "Cloudflare Pages",
+                    "description": "Build and host your JAMstack sites",
+                    "url": "https://pages.cloudflare.com/"
+                },
+                {
+                    "name": "Cloudflare Workers",
+                    "description": "Deploy serverless functions with Cloudflare Workers",
+                    "url": "https://workers.cloudflare.com/"
+                },
+                {
+                    "name": "GitHub Pages",
+                    "description": "Host static websites on GitHub",
+                    "url": "https://pages.github.com/"
+                }
+            ]
+        },
+        {
+            "name": "UI-Libraries",
+            "icon": "🎨",
+            "tools": [
+                {
+                    "name": "Shadcn",
+                    "description": "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+                    "url": "https://ui.shadcn.com/"
+                },
+                {
+                    "name": "Tailwind UI",
+                    "description": "Beautiful UI components, crafted by the creators of Tailwind CSS.",
+                    "url": "https://tailwindui.com/"
+                },
+                {
+                    "name": "Aceternity UI",
+                    "description": "A modern, accessible, and customizable design system for your next project.",
+                    "url": "https://ui.aceternity.com/"
+                },
+                {
+                    "name": "Origin UI",
+                    "description": "Origin UI is an extensive collection of copy-and-paste components for quickly building app UIs.",
+                    "url": "https://originui.com/"
+                },
+                {
+                    "name": "Radix UI",
+                    "description": "An open-source component library optimized for fast development, easy maintenance, and accessibility.",
+                    "url": "https://radix-ui.com/"
+                },
+                {
+                    "name": "Chakra UI",
+                    "description": "Simple, Modular & Accessible UI Components for your React Applications",
+                    "url": "https://chakra-ui.com/"
+                },
+                {
+                    "name": "Ant Design",
+                    "description": "An enterprise-class UI design language and React UI library.",
+                    "url": "https://ant.design/"
+                },
+                {
+                    "name": "Material-UI",
+                    "description": "React components for faster and easier web development.",
+                    "url": "https://mui.com/"
+                }
+            ]
+        },
+        {
+            "name": "Authentication",
+            "icon": "🔐",
+            "tools": [
+                {
+                    "name": "Clerk",
+                    "description": "Authentication for the Web",
+                    "url": "https://clerk.com/"
+                },
+                {
+                    "name": "Auth.js",
+                    "description": "open-source packages that are built on standard Web APIs for authentication in modern applications with any framework on any platform in any JS runtime.",
+                    "url": "https://authjs.dev/"
+                },
+                {
+                    "name": "OpenAuth",
+                    "description": "OpenAuth is a standards-based auth provider for web apps, mobile apps, single pages apps, APIs, or 3rd party clients.",
+                    "url": "https://openauth.js.org/"
+                },
+                {
+                    "name": "Auth0",
+                    "description": "Auth0 is an identity platform for developers.",
+                    "url": "https://auth0.com/"
+                }
+            ]
+        },
+        {
+            "name": "Storage",
+            "icon": "💾",
+            "tools": [
+                {
+                    "name": "UploadThings",
+                    "description": "UploadThings is a simple, better than S3, fast, and secure file uploader.",
+                    "url": "https://uploadthings.com/"
+                },
+                {
+                    "name": "UploadCare",
+                    "description": "Uploadcare makes simple, powerful, developer-friendly building blocks for file uploading, storage, processing, and delivery.",
+                    "url": "https://uploadcare.com/"
+                },
+                {
+                    "name": "Supabase Storage",
+                    "description": "The open source Firebase alternative",
+                    "url": "https://supabase.com/docs/guides/storage"
+                },
+                {
+                    "name": "AWS S3",
+                    "description": "Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.",
+                    "url": "https://aws.amazon.com/s3/"
+                }
+            ]
+        },
+        {
+            "name": "Others",
+            "icon": "🛠️",
+            "tools": [
+                {
+                    "name": "ray.so",
+                    "description": "Create beautiful images of your code",
+                    "url": "https://ray.so/"
+                },
+                {
+                    "name": "Icon Maker",
+                    "description": "Free Icon Maker by Raycast",
+                    "url": "https://ray.so/icon"
+                },
+                {
+                    "name": "AI Prompts",
+                    "description": "AI prompts that you need",
+                    "url": "https://ray.so/prompts/code"
+                }
+            ]
+        }
+    ]
+}
