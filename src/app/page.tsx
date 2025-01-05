@@ -38,7 +38,7 @@ export default function Home() {
             </main>
             <footer className="mt-8 text-center text-sm text-gray-500">
                 <a
-                    href="https://github.com/MandavkarPranjal/quickpic"
+                    href="https://github.com/MandavkarPranjal/quicklink"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline"
