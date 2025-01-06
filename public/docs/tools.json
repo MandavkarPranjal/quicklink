@@ -180,6 +180,11 @@
             "icon": "🛠️",
             "tools": [
                 {
+                    "name": "Trending APIs",
+                    "description": "Better APIs docs for developers",
+                    "url": "https://www.postman.com/explore/trending-apis"
+                },
+                {
                     "name": "ray.so",
                     "description": "Create beautiful images of your code",
                     "url": "https://ray.so/"
