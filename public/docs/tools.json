@@ -11,12 +11,12 @@
                 },
                 {
                     "name": "Supabase",
-                    "description": "The Open Source Firebase Alternative.",
+                    "description": "The Open Source Firebase Alternative",
                     "url": "https://supabase.com/"
                 },
                 {
                     "name": "Turso",
-                    "description": "SQLite for Production. Powered by libSQL.",
+                    "description": "SQLite for Production. Powered by libSQL",
                     "url": "https://turso.tech/"
                 },
                 {
@@ -25,14 +25,60 @@
                     "url": "https://neon.tech/"
                 },
                 {
+                    "name": "Xata",
+                    "description": "PostgreSQL database platform that optimizes for reliability, scalability, and developer experience",
+                    "url": "https://xata.io/"
+                },
+                {
+                    "name": "TiDB",
+                    "description": "Make Your Next-Gen Application Cost-Efficient, Simple and Modern",
+                    "url": "https://www.pingcap.com/tidb-cloud-serverless/"
+                },
+                {
+                    "name": "Cloudflare D1",
+                    "description": "Cloudflare's managed, serverless database with SQLite's SQL semantics, built-in disaster recovery, and Worker and HTTP API access",
+                    "url": "https://developers.cloudflare.com/d1/"
+                },
+                {
+                    "name": "EdgeDB",
+                    "description": "Open-source database engineered to advance SQL into a sophisticated graph data model",
+                    "url": "https://www.edgedb.com/"
+                },
+                {
+                    "name": "tembo",
+                    "description": "Postgres developer platform for building every data service",
+                    "url": "https://tembo.io/"
+                },
+                {
                     "name": "Prisma Postgres",
                     "description": "Instant Postgres for Global Applications",
                     "url": "https://www.prisma.io/postgres"
                 },
                 {
                     "name": "MongoDB",
-                    "description": "The most popular database for modern apps.",
+                    "description": "The most popular database for modern apps",
                     "url": "https://www.mongodb.com/"
+                },
+                {
+                    "name": "SQLite Cloud",
+                    "description": "Distributed relational database system built on top of the SQLite database engine",
+                    "url": "https://sqlitecloud.io/"
+                }
+            ]
+        },
+        {
+            "name": "ORM",
+            "icon": "🔗",
+            "tools": [
+                {
+                    "name": "Prisma",
+                    "description": "Simplify working and interacting with databases",
+                    "url": "https://www.prisma.io/"
+                },
+                {
+                    "name": "Drizzle",
+                    "description": "next gen TypeScript ORM",
+                    "url": "https://orm.drizzle.team/"
                 }
             ]
         },
@@ -83,27 +129,27 @@
             "tools": [
                 {
                     "name": "Shadcn",
-                    "description": "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+                    "description": "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source",
                     "url": "https://ui.shadcn.com/"
                 },
                 {
                     "name": "Tailwind UI",
-                    "description": "Beautiful UI components, crafted by the creators of Tailwind CSS.",
+                    "description": "Beautiful UI components, crafted by the creators of Tailwind CSS",
                     "url": "https://tailwindui.com/"
                 },
                 {
                     "name": "Aceternity UI",
-                    "description": "A modern, accessible, and customizable design system for your next project.",
+                    "description": "A modern, accessible, and customizable design system for your next project",
                     "url": "https://ui.aceternity.com/"
                 },
                 {
                     "name": "Origin UI",
-                    "description": "Origin UI is an extensive collection of copy-and-paste components for quickly building app UIs.",
+                    "description": "Origin UI is an extensive collection of copy-and-paste components for quickly building app UIs",
                     "url": "https://originui.com/"
                 },
                 {
                     "name": "Radix UI",
-                    "description": "An open-source component library optimized for fast development, easy maintenance, and accessibility.",
+                    "description": "An open-source component library optimized for fast development, easy maintenance, and accessibility",
                     "url": "https://radix-ui.com/"
                 },
                 {
@@ -113,12 +159,12 @@
                 },
                 {
                     "name": "Ant Design",
-                    "description": "An enterprise-class UI design language and React UI library.",
+                    "description": "An enterprise-class UI design language and React UI library",
                     "url": "https://ant.design/"
                 },
                 {
                     "name": "Material-UI",
-                    "description": "React components for faster and easier web development.",
+                    "description": "React components for faster and easier web development",
                     "url": "https://mui.com/"
                 }
             ]
@@ -134,17 +180,17 @@
                 },
                 {
                     "name": "Auth.js",
-                    "description": "open-source packages that are built on standard Web APIs for authentication in modern applications with any framework on any platform in any JS runtime.",
+                    "description": "Open-source packages that are built on standard Web APIs for authentication in modern applications with any framework on any platform in any JS runtime",
                     "url": "https://authjs.dev/"
                 },
                 {
                     "name": "OpenAuth",
-                    "description": "OpenAuth is a standards-based auth provider for web apps, mobile apps, single pages apps, APIs, or 3rd party clients.",
+                    "description": "OpenAuth is a standards-based auth provider for web apps, mobile apps, single pages apps, APIs, or 3rd party clients",
                     "url": "https://openauth.js.org/"
                 },
                 {
                     "name": "Auth0",
-                    "description": "Auth0 is an identity platform for developers.",
+                    "description": "Auth0 is an identity platform for developers",
                     "url": "https://auth0.com/"
                 }
             ]
@@ -155,7 +201,7 @@
             "tools": [
                 {
                     "name": "UploadThing",
-                    "description": "UploadThings is a simple, better than S3, fast, and secure file uploader.",
+                    "description": "UploadThings is a simple, better than S3, fast, and secure file uploader",
                     "url": "https://uploadthing.com/"
                 },
                 {
@@ -167,11 +213,6 @@
                     "name": "Supabase Storage",
                     "description": "The open source Firebase alternative",
                     "url": "https://supabase.com/docs/guides/storage"
-                },
-                {
-                    "name": "AWS S3",
-                    "description": "Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.",
-                    "url": "https://aws.amazon.com/s3/"
                 }
             ]
         },
