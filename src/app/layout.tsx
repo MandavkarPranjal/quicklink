@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
     title: "Quicklinks - links to all usefull tools",
-    description: "A bunch of simple tools links for Devs. All free. No BS.",
+    description: "A bunch of simple tools links for Devs. All free. Might be paid for extra features.",
     icons: {
         icon: "/favicon.svg",
     },

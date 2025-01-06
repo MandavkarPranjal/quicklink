@@ -39,7 +39,7 @@ export default function Home() {
                 </div>
                 <div className="mt-2"></div>
                 <p className="inline-block rounded-full border border-white/30 bg-white/5 px-2 py-0.5 text-center text-sm text-white/60">
-                    All tools are free to use
+                    All tools are free to use with limits
                 </p>
 
                 {/* Category Section */}
