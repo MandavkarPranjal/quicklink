@@ -35,7 +35,7 @@ export default function Home() {
                     >
                         Pranjal
                     </a>
-                    . I built these website because I always forget where to find the tools I need.
+                    . I built this website because I always forget where to find the tools I need.
                 </div>
                 <div className="mt-2"></div>
                 <p className="inline-block rounded-full border border-white/30 bg-white/5 px-2 py-0.5 text-center text-sm text-white/60">
