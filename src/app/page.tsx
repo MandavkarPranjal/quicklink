@@ -7,11 +7,8 @@ import { useEffect, useState } from "react";
 const Category = ({ name, icon }) => (
     <Link
         href={`/category/${name.toLowerCase()}`}
-        className="flex items-center p-4 bg-white/5 rounded-lg hover:bg-white/10 transition-colors"
     >
-        <span className="text-2xl mr-3">{icon}</span>
-        <span className="text-lg">{name}</span>
-        <ArrowRight className="ml-auto" size={20} />
+        {icon} - <span className="text-blue-500 hover:underline">{name}</span>
     </Link>
 );
 
@@ -28,7 +25,7 @@ export default function Home() {
     return (
         <div className="flex min-h-screen flex-col justify-between p-8 font-[family-name:var(--font-geist-sans)] sm:p-20">
             <main className="flex flex-grow flex-col items-center justify-center text-center">
-                <div>
+                <div className="text-2xl">
                     Hi. I&apos;m{" "}
                     <a
                         href="https://x.com/__pr4njal"
@@ -38,21 +35,18 @@ export default function Home() {
                     >
                         Pranjal
                     </a>
-                    . I built these tools because I was annoyed they did not exist without signing in.<br />
-                    <p className="text-center text-white/60">
-                        I don&apos;t collect your data as cookies or anything. All work is done on your side.
-                    </p>
+                    . I built these website because I always forget where to find the tools I need.
                 </div>
+                <div className="mt-2"></div>
+                <p className="inline-block rounded-full border border-white/30 bg-white/5 px-2 py-0.5 text-center text-sm text-white/60">
+                    All tools are free to use
+                </p>
 
                 {/* Category Section */}
                 <div className="mt-4"></div>
-                <section className="w-full max-w-4xl mb-12">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                        {categories.map((category) => (
-                            <Category key={category.name} {...category} />
-                        ))}
-                    </div>
-                </section>
+                {categories.map((category) => (
+                    <Category key={category.name} {...category} />
+                ))}
             </main>
             <footer className="mt-8 text-center text-sm text-gray-500">
                 <a

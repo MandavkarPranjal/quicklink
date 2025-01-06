@@ -1,8 +1,8 @@
 import AuthenticationCategory from "./authentication-category";
 
 export const metadata = {
-    title: "Free Database",
-    description: "Free Database Plans",
+    title: "Auth - QuickLinks",
+    description: "Authentication made easier",
 };
 
 export default function SVGToolPage() {

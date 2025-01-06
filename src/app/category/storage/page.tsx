@@ -1,8 +1,8 @@
 import StorageCategory from "./storage-category";
 
 export const metadata = {
-    title: "Free Database",
-    description: "Free Database Plans",
+    title: "Free Storage - QuickLinks",
+    description: "Store your data in the cloud for free",
 };
 
 export default function SVGToolPage() {

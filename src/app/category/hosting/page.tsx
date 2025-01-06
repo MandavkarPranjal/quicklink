@@ -1,8 +1,8 @@
 import HostingCategory from "./hosting-category";
 
 export const metadata = {
-    title: "Free Database",
-    description: "Free Database Plans",
+    title: "Free Hosting - QuickLinks",
+    description: "Host your website for free",
 };
 
 export default function SVGToolPage() {

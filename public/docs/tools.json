@@ -154,9 +154,9 @@
             "icon": "💾",
             "tools": [
                 {
-                    "name": "UploadThings",
+                    "name": "UploadThing",
                     "description": "UploadThings is a simple, better than S3, fast, and secure file uploader.",
-                    "url": "https://uploadthings.com/"
+                    "url": "https://uploadthing.com/"
                 },
                 {
                     "name": "UploadCare",
@@ -185,9 +185,19 @@
                     "url": "https://ray.so/"
                 },
                 {
+                    "name": "GitBook",
+                    "description": "GitBook helps you publish beautiful docs and centralize your teams' knowledge",
+                    "url": "https://www.gitbook.com/"
+                },
+                {
                     "name": "Icon Maker",
                     "description": "Free Icon Maker by Raycast",
                     "url": "https://ray.so/icon"
+                },
+                {
+                    "name": "Bump.sh",
+                    "description": "API docs platform for tech writers & engineers",
+                    "url": "https://bump.sh/"
                 },
                 {
                     "name": "AI Prompts",
