@@ -13,13 +13,61 @@ const Category = ({ name, icon }) => (
 
 export default function Home() {
     const [categories, setCategories] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<string | null>(null);
+    const [dots, setDots] = useState('');
 
     useEffect(() => {
+        const interval = setInterval(() => {
+            setDots(prevDots => {
+                if (prevDots.length >= 3) {
+                    return ''
+                }
+                return prevDots + '.'
+            })
+        }, 500) // Change dot every 500ms
         fetch("/docs/tools.json")
-            .then((response) => response.json())
-            .then((data) => setCategories(data.categories))
-            .catch((error) => console.error("Failed to load categories:", error));
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();
+            })
+            .then((data) => {
+                setCategories(data.categories);
+                setLoading(false);
+            })
+            .catch((error) => {
+                console.error("Failed to load categories:", error);
+                setError("Failed to load categories");
+                setLoading(false);
+            });
+        return () => clearInterval(interval)
     }, []);
+
+    if (loading) {
+        return (
+            <div className="flex min-h-screen flex-col justify-between p-8 sm:p-20">
+                <main className="flex flex-grow flex-col items-center justify-center text-center">
+                    <div className="font-mono text-2xl">
+                        Loading<span className="inline-block w-8">{dots}</span>
+                    </div>
+                </main>
+            </div>
+        )
+    }
+
+    if (error) {
+        return (
+            <div className="flex min-h-screen flex-col justify-between p-8 sm:p-20">
+                <main className="flex flex-grow flex-col items-center justify-center text-center">
+                    <div className="font-mono text-2xl">
+                        {error}
+                    </div>
+                </main>
+            </div>
+        )
+    }
 
     return (
         <div className="flex min-h-screen flex-col justify-between p-8 font-[family-name:var(--font-geist-sans)] sm:p-20">
