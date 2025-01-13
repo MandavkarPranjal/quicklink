@@ -179,6 +179,11 @@
             "icon": "🔐",
             "tools": [
                 {
+                    "name": "Better Auth",
+                    "description": "The most comprehensive authentication framework for TypeScript",
+                    "url": "https://www.better-auth.com"
+                },
+                {
                     "name": "Clerk",
                     "description": "Authentication for the Web",
                     "url": "https://clerk.com/"
