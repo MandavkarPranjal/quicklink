@@ -133,6 +133,11 @@
                     "url": "https://ui.shadcn.com/"
                 },
                 {
+                    "name": "21st.dev",
+                    "description": "The NPM for Design Engineers",
+                    "url": "https://21st.dev/"
+                },
+                {
                     "name": "Tailwind UI",
                     "description": "Beautiful UI components, crafted by the creators of Tailwind CSS",
                     "url": "https://tailwindui.com/"
