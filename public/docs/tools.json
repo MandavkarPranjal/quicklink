@@ -254,6 +254,11 @@
                     "name": "AI Prompts",
                     "description": "AI prompts that you need",
                     "url": "https://ray.so/prompts/code"
+                },
+                {
+                    "name": "Roadmap.sh",
+                    "description": "Free, Open Source Roadmap to learn and grow your career",
+                    "url": "https://roadmap.sh"
                 }
             ]
         }
