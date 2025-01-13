@@ -10,7 +10,7 @@ interface Tool {
     url: string;
 }
 
-export default function DatabaseCategory() {
+export default function DevCategory() {
     const [tools, setTools] = useState<Tool[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
