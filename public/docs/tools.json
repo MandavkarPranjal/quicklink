@@ -222,6 +222,52 @@
             ]
         },
         {
+            "name": "Dev-Tools",
+            "icon": "💻",
+            "tools": [
+                {
+                    "name": "bolt.new",
+                    "description": "Prompt, run, edit & deplay web apps",
+                    "url": "https://bolt.new"
+                },
+                {
+                    "name": "v0",
+                    "description": "Generate UI with simple text prompts",
+                    "url": "https://v0.dev"
+                },
+                {
+                    "name": "Lovable",
+                    "description": "Build software products, using only chat interface",
+                    "url": "https://lovable.dev"
+                },
+                {
+                    "name": "Resend",
+                    "description": "Email for developers",
+                    "url": "https://resend.com"
+                },
+                {
+                    "name": "Code Rabbit",
+                    "description": "Cut Code Review Time & Bugs in Half",
+                    "url": "https://www.coderabbit.ai"
+                },
+                {
+                    "name": "Graphite",
+                    "description": "Helps teams on GitHub ship higher quality software, faster",
+                    "url": "https://graphite.dev"
+                },
+                {
+                    "name": "Cal.com",
+                    "description": "The better way to schedule your meetings",
+                    "url": "https://cal.com"
+                },
+                {
+                    "name": "Linear",
+                    "description": "Plan & Build Products",
+                    "url": "https://linear.app"
+                }
+            ]
+        },
+        {
             "name": "Others",
             "icon": "🛠️",
             "tools": [
