@@ -25,6 +25,11 @@
                     "url": "https://neon.tech/"
                 },
                 {
+                    "name": "SurrealDB",
+                    "description": "SurrealDB is a cloud-native database that is designed to be simple, fast, and scalable",
+                    "url": "https://surrealdb.com"
+                },
+                {
                     "name": "Xata",
                     "description": "PostgreSQL database platform that optimizes for reliability, scalability, and developer experience",
                     "url": "https://xata.io/"
@@ -107,6 +112,11 @@
                     "url": "https://sevalla.com/"
                 },
                 {
+                    "name": "NHost",
+                    "description": "open-source backend and development platform that enables developers to build and scale their web and mobile apps",
+                    "url": "https://nhost.io"
+                },
+                {
                     "name": "Cloudflare Pages",
                     "description": "Build and host your JAMstack sites",
                     "url": "https://pages.cloudflare.com/"
@@ -115,6 +125,11 @@
                     "name": "Cloudflare Workers",
                     "description": "Deploy serverless functions with Cloudflare Workers",
                     "url": "https://workers.cloudflare.com/"
+                },
+                {
+                    "name": "Zeabur",
+                    "description": "help you deploy your service with one click, No matter what programming language you use, what framework you use",
+                    "url": "https://zeabur.com"
                 },
                 {
                     "name": "GitHub Pages",
@@ -231,6 +246,11 @@
             "icon": "💻",
             "tools": [
                 {
+                    "name": "SST",
+                    "description": "Deploy everything your app needs with a single config",
+                    "url": "https://sst.dev"
+                },
+                {
                     "name": "bolt.new",
                     "description": "Prompt, run, edit & deplay web apps",
                     "url": "https://bolt.new"
@@ -259,6 +279,21 @@
                     "name": "Graphite",
                     "description": "Helps teams on GitHub ship higher quality software, faster",
                     "url": "https://graphite.dev"
+                },
+                {
+                    "name": "Nx",
+                    "description": "Smart, Extensible Build Framework for Monorepos",
+                    "url": "https://nx.dev"
+                },
+                {
+                    "name": "PostHog",
+                    "description": "The single platform to analyze, test, observe, and deploy new features",
+                    "url": "https://posthog.com"
+                },
+                {
+                    "name": "UnoCSS",
+                    "description": "A utility-first CSS framework for rapid UI development",
+                    "url": "https://unocss.dev"
                 },
                 {
                     "name": "Cal.com",
