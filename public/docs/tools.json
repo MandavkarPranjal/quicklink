@@ -296,6 +296,11 @@
                     "url": "https://unocss.dev"
                 },
                 {
+                    "name": "Grep.app",
+                    "description": "Effortlessly search for code, files, and path across millions of GitHub repositories",
+                    "url": "https://grep.app"
+                },
+                {
                     "name": "Cal.com",
                     "description": "The better way to schedule your meetings",
                     "url": "https://cal.com"
