@@ -148,6 +148,11 @@
                     "url": "https://ui.shadcn.com/"
                 },
                 {
+                    "name": "NextUI",
+                    "description": "beautiful and accessible user interfaces not backed by vercel",
+                    "url": "https://nextui.org"
+                },
+                {
                     "name": "21st.dev",
                     "description": "The NPM for Design Engineers",
                     "url": "https://21st.dev/"
