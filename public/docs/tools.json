@@ -198,9 +198,24 @@
                     "url": "https://github.com/DrakeAlia/family-drawer"
                 },
                 {
+                    "name": "Motion",
+                    "description": "Modern animation for JavaScript & React",
+                    "url": "https://motion.dev"
+                },
+                {
+                    "name": "tailwindcss-animate",
+                    "description": "A Tailwind CSS plugin for creating beautiful animations",
+                    "url": "https://github.com/jamiebuilds/tailwindcss-animate"
+                },
+                {
                     "name": "Rombo",
                     "description": "Animatation library for Tailwind CSS Library",
                     "url": "https://rombo.co/tailwind"
+                },
+                {
+                    "name": "Glaze",
+                    "description": "Utility-based animation for the web",
+                    "url": "https://glaze.dev"
                 }
             ]
         },
