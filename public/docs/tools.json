@@ -368,6 +368,72 @@
             ]
         },
         {
+            "name": "Design-Inspiration",
+            "icon": "🎨",
+            "tools": [
+                {
+                    "name": "Awwwards",
+                    "description": "Awwwards showcase and award websites that demonstrate exceptional design, innovation, and user experience",
+                    "url": "https://www.awwwards.com"
+                },
+                {
+                    "name": "Codrops",
+                    "description": "Codrops is a web design and development blog that publishes articles and tutorials about the latest web trends, techniques, and new possibilities since 2009",
+                    "url": "https://tympanus.net/codrops"
+                },
+                {
+                    "name": "Curated.design",
+                    "description": "Curated design inspiration",
+                    "url": "https://www.curated.design"
+                },
+                {
+                    "name": "Dark Mode Design",
+                    "description": "Showcase of beautiful designed and inspiring dark mode websites",
+                    "url": "https://www.darkmodedesign.com"
+                },
+                {
+                    "name": "Doing Cool Stuff",
+                    "description": "A directory of brand, motion and digital product design studios doing cool stuff",
+                    "url": "https://www.doingcoolstuff.xyz"
+                },
+                {
+                    "name": "Footer.design",
+                    "description": "curated gallery of the top website footer inspiration on web",
+                    "url": "https://www.footer.design"
+                },
+                {
+                    "name": "Godly",
+                    "description": "Astronomically good web design inspiration from all over the internet",
+                    "url": "https://godly.website"
+                },
+                {
+                    "name": "Minimal.Gallery",
+                    "description": "For the love of beautiful, clean and functional websites",
+                    "url": "https://minimal.gallery"
+                },
+                {
+                    "name": "Mobbin",
+                    "description": "Browse and search across thousands of Web UI elements for UI & UX research",
+                    "url": "https://mobbin.com"
+                },
+                {
+                    "name": "Refero.design",
+                    "description": "Makes design research easier and faster than ever before",
+                    "url": "https://refero.design"
+                },
+                {
+                    "name": "Stack Sorted",
+                    "description": "Choose an element and view projects/websites with creative designs for it",
+                    "url": "https://stacksorted.com"
+                },
+                {
+                    "name": "Storefront Design",
+                    "description": "Explore a curated collection of unique ecommerce storefronts updated every Friday",
+                    "url": "https://www.storefront.design"
+                }
+            ]
+        },
+        {
             "name": "Others",
             "icon": "🛠️",
             "tools": [
