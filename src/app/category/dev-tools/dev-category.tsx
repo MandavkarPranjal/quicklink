@@ -73,7 +73,7 @@ export default function DevCategory() {
     return (
         <main className="flex flex-grow flex-col items-center justify-center text-center">
             <div className="text-5xl font-semibold">
-                Database
+                Dev Tools
             </div>
             <div className="mt-4"></div>
             <div className="">
