@@ -339,6 +339,31 @@
                     "name": "Linear",
                     "description": "Plan & Build Products",
                     "url": "https://linear.app"
+                },
+                {
+                    "name": "Easings",
+                    "description": "helps you choose the right easing function",
+                    "url": "https://easings.net"
+                },
+                {
+                    "name": "GLTF to JSX",
+                    "description": "GLTF file into JSX code",
+                    "url": "https://gltf.pmnd.rs"
+                },
+                {
+                    "name": "Microcopy",
+                    "description": "Short text for your website",
+                    "url": "https://www.microcopy.me"
+                },
+                {
+                    "name": "Realtime Colors",
+                    "description": "Visualize your color & fonts on a real site",
+                    "url": "https://www.realtimecolors.com/?colors=e3fcf9-021210-6218e2-2e050a-9be718&fonts=Poppins-Poppins#how"
+                },
+                {
+                    "name": "Typescale",
+                    "description": "Create stunning typography, generate CSS, and find inspiration",
+                    "url": "https://typescale.com"
                 }
             ]
         },
@@ -355,6 +380,11 @@
                     "name": "ray.so",
                     "description": "Create beautiful images of your code",
                     "url": "https://ray.so/"
+                },
+                {
+                    "name": "Shot.so",
+                    "description": "Create beautiful presentations of your website, social media and more",
+                    "url": "https://shots.so"
                 },
                 {
                     "name": "GitBook",
