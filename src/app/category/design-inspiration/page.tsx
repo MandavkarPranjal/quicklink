@@ -1,8 +1,8 @@
 import InspirationCategory from "./inspiration-category";
 
 export const metadata = {
-    title: "Cool Tools - QuickLinks",
-    description: "Tools that will make your life easier",
+    title: "Design Inspiration - QuickLinks",
+    description: "Inspiration that will help you design better products",
 };
 
 export default function SVGToolPage() {
