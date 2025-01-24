@@ -48,25 +48,21 @@ export default function OtherCategory() {
 
     if (loading) {
         return (
-            <div className="flex min-h-screen flex-col justify-between p-8 sm:p-20">
-                <main className="flex flex-grow flex-col items-center justify-center text-center">
-                    <div className="font-mono text-2xl">
-                        Loading<span className="inline-block w-8">{dots}</span>
-                    </div>
-                </main>
-            </div>
+            <main className="flex flex-grow flex-col items-center justify-center text-center">
+                <div className="font-mono text-2xl">
+                    Loading<span className="inline-block w-8">{dots}</span>
+                </div>
+            </main>
         )
     }
 
     if (error) {
         return (
-            <div className="flex min-h-screen flex-col justify-between p-8 sm:p-20">
-                <main className="flex flex-grow flex-col items-center justify-center text-center">
-                    <div className="font-mono text-2xl">
-                        {error}
-                    </div>
-                </main>
-            </div>
+            <main className="flex flex-grow flex-col items-center justify-center text-center">
+                <div className="font-mono text-2xl">
+                    {error}
+                </div>
+            </main>
         )
     }
 
