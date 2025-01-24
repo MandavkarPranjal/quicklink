@@ -135,6 +135,11 @@
                     "name": "GitHub Pages",
                     "description": "Host static websites on GitHub",
                     "url": "https://pages.github.com/"
+                },
+                {
+                    "name": "Surge",
+                    "description": "Single-command web publishing, without leaving CLI",
+                    "url": "https://surge.sh"
                 }
             ]
         },
