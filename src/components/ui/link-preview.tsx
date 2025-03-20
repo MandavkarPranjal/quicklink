@@ -36,8 +36,35 @@ export const LinkPreview = ({
   isStatic = false,
   imageSrc = "",
 }: LinkPreviewProps) => {
+  const [ogImage, setOgImage] = React.useState<string | null>(null);
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    const fetchOGImage = async () => {
+      try {
+        const response = await fetch(`https://api.microlink.io/?url=${encodeURIComponent(url)}&meta=true`);
+        const data = await response.json();
+        const ogImageUrl = data.data?.image?.url;
+        setOgImage(ogImageUrl || null);
+      } catch (error) {
+        console.error('Error fetching OpenGraph image:', error);
+        setOgImage(null);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (!isStatic) {
+      fetchOGImage();
+    }
+  }, [url, isStatic]);
+
   let src;
-  if (!isStatic) {
+  if (isStatic) {
+    src = imageSrc;
+  } else if (ogImage) {
+    src = ogImage;
+  } else {
     const params = encode({
       url,
       screenshot: true,
@@ -50,8 +77,6 @@ export const LinkPreview = ({
       "viewport.height": height * 3,
     });
     src = `https://api.microlink.io/?${params}`;
-  } else {
-    src = imageSrc;
   }
 
   const [isOpen, setOpen] = React.useState(false);
