@@ -78,7 +78,7 @@ export default function Home() {
                         href="https://x.com/__pr4njal"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:underline"
+                        className="underline"
                     >
                         Pranjal
                     </a>
