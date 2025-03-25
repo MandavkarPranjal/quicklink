@@ -163,6 +163,16 @@
                     "url": "https://21st.dev/"
                 },
                 {
+                    "name": "Reactbits",
+                    "description": "Open source collection of high quality, animated, interactive UI components",
+                    "url": "https://www.reactbits.dev/"
+                },
+                {
+                    "name": "Magic UI",
+                    "description": "Apple vibe like UI",
+                    "url": "https://magicui.design/"
+                },
+                {
                     "name": "Tailwind UI",
                     "description": "Beautiful UI components, crafted by the creators of Tailwind CSS",
                     "url": "https://tailwindui.com/"
