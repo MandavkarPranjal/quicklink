@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const Category = ({ name, icon }) => (
+interface CategoryProps {
+    name: string;
+    icon: React.ReactNode;
+}
+
+const Category = ({ name, icon }: CategoryProps) => (
     <Link
         href={`/category/${name.toLowerCase()}`}
     >
@@ -12,7 +17,7 @@ const Category = ({ name, icon }) => (
 );
 
 export default function Home() {
-    const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useState<CategoryProps[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
     const [dots, setDots] = useState('');
